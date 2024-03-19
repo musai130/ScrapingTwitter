@@ -82,7 +82,7 @@ for proxy in ProxyList:
                     print(f"{count+1}. {tweet_data}")
                     count+=1
                     print('------')
-                if count == 15: break
+                if count == 10: break
         break
     except Exception as e:
         print(e)
